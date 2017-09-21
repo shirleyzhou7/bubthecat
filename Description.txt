@@ -1,0 +1,17 @@
+Chatbot description:
+
+I changed two files and added another from the original code scaffolding: 
+I changed Runv4.py and Settingsv2.py (very slightly) and added Chatbot.py.
+Settingsv2.py points to my personal channel's twitch stream (https://www.twitch.tv/camrawne_dev)
+to listen and process chat stuff.
+I simply added a line in Runv4.py that calls the processCommands() function whenever 
+a private message is recieved. The code in Chatbot is very simple and adds a processCommands() 
+function that parses an input message for one of the two implemented commands. 
+The two commands are: 
+- !encourageme 
+    The bot responds by saying something nice about the person that called the command.
+- !sassme
+    The bot says something sassy. More directed at the streamer than the player calling it.
+
+To run, do:
+python Runv4.py and go to https://www.twitch.tv/camrawne_dev. Try typing in one of the commands and see the magic happen.
