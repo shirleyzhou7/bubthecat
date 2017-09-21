@@ -8,7 +8,7 @@ from Readv3 import getOwner, getTurbo, getSub, getMod
 from Socketv2 import openSocket, sendMessage
 from Settingsv2 import HOST, PORT, PASS, IDENT
 from datetime import datetime
-from Chatbot import processCommands
+from BubTheCat import processCommands
 
 # Actually joins the rooms
 s = openSocket()

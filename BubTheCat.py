@@ -21,7 +21,7 @@ def processCommands(line, sock):
 	message = getMessage(line)
 	channel = getChannelname(line)
 
-	#encourage says something nice about the user that called the command
+	#encourage says something nice about the user that called the command 
 	if "!encourageme" in message:
 		encouragement = random.choice(nice_things).replace("$", user)
 		print(encouragement)
